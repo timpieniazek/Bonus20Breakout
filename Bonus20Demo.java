@@ -119,7 +119,7 @@ public class Bonus20Demo {
 			//else, repeat the method
 		} else {
 			System.out.println("Sorry, we cannot help you find your " + userInput + "! :(");
-			enterItem(scan, inventory, prompt);
+			return enterItem(scan, inventory, prompt);
 		}
 		
 		
